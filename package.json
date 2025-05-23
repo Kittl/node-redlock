@@ -1,6 +1,6 @@
 {
   "name": "@kittl/node-redlock",
-  "version": "5.0.0-beta.3",
+  "version": "5.0.0-beta.4",
   "description": "A node.js redlock implementation for distributed redis locks",
   "license": "MIT",
   "author": {
@@ -19,7 +19,8 @@
   "exports": {
     ".": {
       "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js"
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "keywords": [
