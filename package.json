@@ -1,6 +1,6 @@
 {
   "name": "@kittl/node-redlock",
-  "version": "5.0.0-beta.4",
+  "version": "5.0.0-beta.5",
   "description": "A node.js redlock implementation for distributed redis locks",
   "license": "MIT",
   "author": {
@@ -75,7 +75,6 @@
   "dependencies": {
     "node-abort-controller": "^3.0.1"
   },
-  "type": "module",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   }
